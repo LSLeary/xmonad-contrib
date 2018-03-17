@@ -91,6 +91,15 @@
 
 ### New Modules
 
+  * `XMonad.Layout.Quadrant`
+
+    The Quadrant layout takes as parameters four sublayouts with which to tile
+    each quadrant of the screen, and offers a highly configurable set of possible
+    centring and expansion behaviours when not all quadrants are occupied. It is
+    intended to be used with highly automated layouts like Grid, in order to
+    bridge the gap between SplitGrid and BSP on the spectrum of layouts trading
+    off automation for window-arranging power.
+
   * `XMonad.Layout.StateFull`
 
     Provides StateFull: a stateful form of Full that does not misbehave when

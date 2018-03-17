@@ -259,6 +259,7 @@ library
                         XMonad.Layout.PerScreen
                         XMonad.Layout.PerWorkspace
                         XMonad.Layout.PositionStoreFloat
+                        XMonad.Layout.Quadrant
                         XMonad.Layout.Reflect
                         XMonad.Layout.Renamed
                         XMonad.Layout.ResizableTile
