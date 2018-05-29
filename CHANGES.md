@@ -91,6 +91,14 @@
 
 ### New Modules
 
+  * `XMonad.Layout.NDeep`
+
+    Provides NDeep, a further extension to X.L.LayoutCombinators' own extension
+    of the Choose layout combinator that, like the aforementioned, provides its
+    own version of (|||). It enables more precise message handling by allowing
+    you to send a message to a layout n deep in the chain of (|||), regardless
+    of whether that layout is currently active.
+
   * `XMonad.Layout.StateFull`
 
     Provides StateFull: a stateful form of Full that does not misbehave when

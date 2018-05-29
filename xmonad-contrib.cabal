@@ -252,6 +252,7 @@ library
                         XMonad.Layout.MultiToggle
                         XMonad.Layout.MultiToggle.Instances
                         XMonad.Layout.Named
+                        XMonad.Layout.NDeep
                         XMonad.Layout.NoBorders
                         XMonad.Layout.NoFrillsDecoration
                         XMonad.Layout.OnHost
