@@ -157,6 +157,11 @@
 
 ### Bug Fixes and Minor Changes
 
+  * `XMonad.Layout.LayoutCombinators`
+
+    Export the `NewSelect` constructor so that e.g. it's possible to write the
+    `X.L.NDeep` module.
+
   * XMonad.Hooks.FadeWindows
 
     Added support for GHC version 8.4.x by adding a Semigroup instance for

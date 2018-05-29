@@ -49,7 +49,7 @@ module XMonad.Layout.LayoutCombinators
     , JumpToLayout(..)
 
       -- * Types
-    , NewSelect
+    , NewSelect(..)
     ) where
 
 import Data.Maybe ( isJust, isNothing )
