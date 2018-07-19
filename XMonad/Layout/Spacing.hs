@@ -178,7 +178,7 @@ instance Eq a => LayoutModifier Spacing a where
         | Just (ModifyWindowBorderEnabled f) <- fromMessage m
         = Just $ s { windowBorderEnabled = f wbe }
         | Just (ModifySpacing f) <- fromMessage m
-        = Just $ let modSp = borderMap (fromIntegral . max 0 . f . fromIntegral)
+        = Just $ let modSp = borderMap (fromIntegral . f . fromIntegral)
                  in  s { screenBorder = modSp sb, windowBorder = modSp wb }
         | otherwise
         = Nothing
